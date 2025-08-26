@@ -10,8 +10,9 @@ namespace PuffAutomat
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Tissemand");
-            Console.WriteLine("Stor Tissemand"); 
+            VendingMachine vendingMachine = new VendingMachine();
+            vendingMachine.AddProduct();
+            vendingMachine.PrintAllProducts();
         }
     }
 }
