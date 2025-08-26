@@ -11,6 +11,7 @@ namespace PuffAutomat
         static void Main(string[] args)
         {
             Console.WriteLine("Tissemand");
+            Console.WriteLine("Stor Tissemand"); 
         }
     }
 }
